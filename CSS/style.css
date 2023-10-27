@@ -88,8 +88,8 @@ body{
 .hero_content{
     display: flex;
     align-items: center;
-    justify-content:space-between;
     padding: 50px 0 20px;
+    
 }
 .hero_button{
     width: 160px;
@@ -114,6 +114,18 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
+    margin: 0;
+    padding: 0 0 0 80px;
+}
+.hero_text4{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin: 0;
+    padding: 0 ;
 }
 .hero_icon{
     display: flex;
@@ -125,7 +137,7 @@ body{
     max-width: 900px;
     height: 700px;
 }
-@media screen and (max-width:1030px) {
+@media screen and (max-width:1360px) {
     .hero{
         display: grid;
         grid-template-columns: 1fr;
@@ -187,3 +199,80 @@ body{
     line-height: 63.72px; 
     margin: 0;
  }
+ .frame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+ }
+ .frame_title-text{
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    margin: 0;
+ }
+ .frame_title-text2{
+    color: rgba(18, 16, 12, 0.70);
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.92px;
+    padding: 50px 50px 50px 0;
+    margin: 0; 
+ }
+ .frame_button{
+    display: flex;
+    gap: 40px;
+ }
+ .frame_button1{
+    color: #12100C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    width: 162px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 10.5px;
+    background: #FFAE33;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    border-color: #FFAE33;
+ }
+ .frame_button2{
+    color: #12100C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    width: 146px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 10.5px;
+    background: #FFB0AE;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    border-color: #FFB0AE;
+ }
+ .frame_img{
+    max-width: 900px;
+    height: 700px;
+}
+@media screen and (max-width:1360px) {
+    .frame{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+ @media screen and (ma-width:1030px) {
+    .frame-img{
+        width: 320px;
+        height: 320px;
+    }
+}
